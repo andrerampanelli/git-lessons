@@ -21,7 +21,7 @@ Will be revised in this repository:
  [Git flow workflow from BitBucket](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ## Commits signatures
- Use GPG to sign your commits
+ Use GPG to sign your commits, a safe way to know who really commited
  - Install GPG
  - Generate key with `gpg --full-generate-key`
  - Get your GPG key's ID with `gpg -K --keyid-form LONG`
@@ -31,4 +31,4 @@ Will be revised in this repository:
  - Setup your git to use this GPG to sign your commits with `git config [--global,--system,--local,--worktree] user.signingkey <YOUR KEYID>`
  - Config git to sign on commit with `git config [--global,--system,--local,--worktree] commit.gpgsign true`
  - Config git to sign on tag creation with `git config [--global,--system,--local,--worktree] tag.gpgsign true`
- 
+
